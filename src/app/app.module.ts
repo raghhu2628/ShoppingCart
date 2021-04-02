@@ -10,7 +10,8 @@ import{HeaderComponent} from './header/header.component';
 import{ShoppinglisteditComponent} from './Shoppinglist/ShoppinglistEdit/Shoppinglistedit.component'
 import{Shoppinglist} from './Shoppinglist/Shoppinglist.component';
 import {AppRoutingModule} from './app.route.module';
-import {LoginComponent}from './login/login.component'
+import {LoginComponent}from './login/login.component';
+import{RegistarionComponent} from './registration/registration.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import {LoginComponent}from './login/login.component'
     HeaderComponent,
     ShoppinglisteditComponent,
     Shoppinglist,
-    LoginComponent
+    LoginComponent,
+    RegistarionComponent
   ],
   imports: [
     BrowserModule,

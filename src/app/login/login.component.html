@@ -6,13 +6,13 @@
       <label class="checkbox">
         <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
       </label>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="checkLogin()">Login</button>
       <div class="text-center p-t-115 signUpMargin">
         <span class="txt1">
             Don’t have an account?
         </span>
 
-        <a class="txt2" href="#">
+        <a class="txt2" routerLink="/registration">
             Sign Up
         </a>
     </div>   
