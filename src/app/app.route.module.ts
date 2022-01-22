@@ -8,6 +8,10 @@ import { PathLocationStrategy } from '@angular/common';
 import { RecipeItemComponent } from './recipe-item/recipe-item.component';
 const routes: Routes = [
     {
+        path: '',
+        component: LoginComponent,
+    },
+    {
         path: 'login',
         component: LoginComponent,
     },
